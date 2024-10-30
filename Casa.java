@@ -39,4 +39,14 @@ public class Casa {
             alquilada = true;
         }
     }
+    
+    public void imprimirDetalles() {
+        System.out.println("Propietario: " + nombrePropietario + " | Precio: " + precio + " | Alquilada: " + alquilada);
+    }
+    
+    public String getDetalles() {
+        String detalles;
+        detalles = "Propietario: " + nombrePropietario + " | Precio: " + precio + " | Alquilada: " + alquilada;
+        return detalles;
+    }
 }
